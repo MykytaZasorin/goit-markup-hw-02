@@ -1,1 +1,20 @@
 /* Пропиши стилі для body (font-family, color та background-color) */
+:root {
+    --main-font: 
+    --color-iris: #4d5ae5;
+    --color-ocean: #404bbf;
+    --color-navyb: #2e2f42;
+    --color-green: #31d0aa;
+    --color-slate: #434455;
+    --color-lslate: #8e8f99;
+    --color-cornflower: #e7e9fc;
+    --color-cloud: #f4f4fd;
+    --color-navbm: #2e2f42;
+    --color-grey: #2e2f42;
+    --color-white: #ffffff;
+    --color-dairy: #fcfcfc;  
+}
+
+body {
+    
+}
