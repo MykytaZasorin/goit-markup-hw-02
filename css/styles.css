@@ -92,6 +92,7 @@ h3 {
 .main-button {
     color: var(--white);
     background-color: var(--iris);
+    cursor: pointer;
 }
 
 .main-button:hover {
