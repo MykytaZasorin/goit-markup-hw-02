@@ -17,13 +17,21 @@ li {
     list-style-type: none;
 }
 
+body {
+    font-family:"Roboto", "Raleway", sans-serif;
+    color:'Courier New', Courier, monospace;
+    background-color: var(--white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+
 /* tegs */
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px; */
     line-height: 1.07143;
-    letter-spacing: 0.02em;
     text-align: center;
     color: var(--white);
 }
@@ -32,7 +40,6 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
-    letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
 }
@@ -41,23 +48,7 @@ h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--navy-blue);
-}
-
-/* text */
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate);
-}
-
-body {
-    font-family:"Roboto", "Raleway", sans-serif;
-    color:'Courier New', Courier, monospace;
-    background-color: var(--white);
 }
 
 .logo {
@@ -82,7 +73,7 @@ body {
 
 .head-contact {
     text-decoration: none;
-    color: var(--slate)
+    color: var(--slate);
 }
 
 .main {
