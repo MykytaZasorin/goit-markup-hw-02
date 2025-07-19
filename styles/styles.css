@@ -13,6 +13,10 @@
     --dairy: #fcfcfc;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* tegs */
 h1 {
     font-weight: 700;
@@ -38,18 +42,22 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: var(--navy-blue);
+}
+
+/* text */
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
 body {
     font-family:"Roboto", "Raleway", sans-serif;
     color:'Courier New', Courier, monospace;
     background-color: var(--white);
-}
-
-.header {
-    text-decoration: none;
 }
 
 .logo {
@@ -63,10 +71,6 @@ body {
     color: var(--iris);
 }
 
-.header-list li {
-    list-style-type: none;
-}
-
 .header-links {
     text-decoration: none;
     font-weight: 500;
@@ -74,28 +78,38 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    list-style-type: none;
-}
-
-.contacts-list li {
-    list-style-type: none;
 }
 
 .head-contact {
     text-decoration: none;
+    color: var(--slate)
+}
+
+.main {
+    background-color: var(--navy-blue);
 }
 
 .main-button {
-    color: var(--white)
+    color: var(--white);
     background-color: var(--iris);
 }
 
-.advantages-text {}
+.profiles {
+    background-color: var(--cloud);
+}
 
-.profiles-text {}
+.profiles h3 {
+    text-align: center;
+}
 
-.portfolio-photo {}
+.profiles-text {
+    text-align: center;
+}
 
-.portfolio-text {}
+.footer {
+    background-color: var(--navy-blue);
+}
 
-.footer-text {}
+.footer-text {
+    color: var(--cloud)
+}
