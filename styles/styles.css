@@ -1,20 +1,101 @@
-/* Пропиши стилі для body (font-family, color та background-color) */
 :root {
-    --main-font: 
-    --color-iris: #4d5ae5;
-    --color-ocean: #404bbf;
-    --color-navyb: #2e2f42;
-    --color-green: #31d0aa;
-    --color-slate: #434455;
-    --color-lslate: #8e8f99;
-    --color-cornflower: #e7e9fc;
-    --color-cloud: #f4f4fd;
-    --color-navbm: #2e2f42;
-    --color-grey: #2e2f42;
-    --color-white: #ffffff;
-    --color-dairy: #fcfcfc;  
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --grey: rgba(46, 47, 66, 0.7);
+    --white: #fff;
+    --dairy: #fcfcfc;
+}
+
+/* tegs */
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px; */
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--navy-blue);
 }
 
 body {
-    
+    font-family:"Roboto", "Raleway", sans-serif;
+    color:'Courier New', Courier, monospace;
+    background-color: var(--white);
 }
+
+.header {
+    text-decoration: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+}
+
+.header-list li {
+    list-style-type: none;
+}
+
+.header-links {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    list-style-type: none;
+}
+
+.contacts-list li {
+    list-style-type: none;
+}
+
+.head-contact {
+    text-decoration: none;
+}
+
+.main-button {
+    color: var(--white)
+    background-color: var(--iris);
+}
+
+.advantages-text {}
+
+.profiles-text {}
+
+.portfolio-photo {}
+
+.portfolio-text {}
+
+.footer-text {}
