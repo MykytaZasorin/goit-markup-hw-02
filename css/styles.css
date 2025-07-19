@@ -27,7 +27,6 @@ body {
     color: var(--slate);
 }
 
-/* tegs */
 h1 {
     font-weight: 700;
     font-size: 56px;
@@ -54,26 +53,36 @@ h3 {
 .logo {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
-    font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);
 }
 
 .header-links {
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+
+.header-list li:first-child:active {
+    border-bottom: 2px solid blue;
+    display: inline-block;
+}
+
+.header-links:hover,
+.header-links:focus {
+    color: var(--ocean)
 }
 
 .head-contact {
     text-decoration: none;
     color: var(--slate);
+}
+
+.head-contact:hover,
+.head-contact:focus {
+    color: var(--ocean)
 }
 
 .main {
@@ -83,6 +92,10 @@ h3 {
 .main-button {
     color: var(--white);
     background-color: var(--iris);
+}
+
+.main-button:hover {
+    background-color: var(--ocean); 
 }
 
 .profiles {
