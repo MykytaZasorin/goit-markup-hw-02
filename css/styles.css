@@ -92,6 +92,10 @@ h3 {
     background-color: var(--navy-blue);
 }
 
+.main-tag {
+    text-align: center;
+}
+
 .main-button {
     font-family: inherit;
     font-weight: 500;
@@ -105,6 +109,10 @@ h3 {
 .main-button:hover,
 .main-button:focus {
     background-color: var(--ocean); 
+}
+
+.second-tag {
+    text-align: center;
 }
 
 .profiles {
