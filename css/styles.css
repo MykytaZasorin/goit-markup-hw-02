@@ -32,7 +32,7 @@ h1 {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+/*     text-align: center; */
     color: var(--white);
 }
 
@@ -42,7 +42,7 @@ h2 {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    text-align: center;
+/*     text-align: center; */
     color: var(--navy-blue);
 }
 
@@ -121,13 +121,13 @@ h3 {
     background-color: var(--white);
 }
 
-.profiles h3 {
+/* .profiles h3 {
     text-align: center;
 }
 
 .profiles-text {
     text-align: center;
-}
+} */
 
 .footer {
     background-color: var(--navy-blue);
