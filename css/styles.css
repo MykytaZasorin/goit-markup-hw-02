@@ -26,7 +26,7 @@ body {
     color: var(--slate);
 }
 
-h1 {
+.main-tag {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -35,7 +35,7 @@ h1 {
     color: var(--white);
 }
 
-h2 {
+.second-tag {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -45,7 +45,7 @@ h2 {
     color: var(--navy-blue);
 }
 
-h3 {
+.third-tag {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
