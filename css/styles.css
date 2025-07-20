@@ -70,10 +70,10 @@ h3 {
     color: var(--navy-blue);
 }
 
-.header-list li:first-child:active {
+/* .header-list li:first-child:active {
     border-bottom: 2px solid blue;
     display: inline-block;
-}
+} */
 
 .header-links:hover,
 .header-links:focus {
